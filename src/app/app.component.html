@@ -1,0 +1,7 @@
+<div class="app">
+  <button (click)="upload()">UPLOAD</button>
+  <br />
+  <br />
+  <input #file id="file" type="file" (change)="handleFileInput($event)" />
+  <img [src]="url" style="width:100px; height:100px;" />
+</div>
